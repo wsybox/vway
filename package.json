@@ -1,0 +1,34 @@
+{
+  "name": "vway",
+  "private": false,
+  "version": "0.0.3",
+  "description": "一个描述 name, attribute, children 结构 的内部DSL",
+  "author": "weisongyao",
+  "keywords": [
+    "vway",
+    "dom",
+    "template",
+    "vnode",
+    "jsx"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/vway.umd.js",
+  "module": "dist/vway.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.0",
+    "vite-plugin-dts": "^3.8.3"
+  }
+}
